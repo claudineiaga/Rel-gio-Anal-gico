@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #ddd;
+}
+.relogio{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    background: linear-gradient(135deg,
+    rgb(10,59,10) 0%,
+    rgb(36, 156, 90) 35%,
+    rgb(129, 225, 140) 100%);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 33px 20px 
+    rgba(0, 0, 0,0.3);
+}
+.relogio::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.marcador{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.marcador div{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+.seg{
+    width: 2px;
+    height: 30%;
+}
+.min{
+    width: 5px;
+    height: 27%;
+}
+.hora{
+    height: 22%;
+    width: 8px;
+}
+.linha{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 24px;
+    padding: 18px;
+    color: #fff;
+}
+.linha1{
+    transform: rotate(30deg);
+}
+.linha1 div{
+    transform: rotate(-30deg);
+}
+.linha2{
+    transform: rotate(60deg);
+}
+.linha2 div{
+    transform: rotate(-60deg);
+}
+.linha3{
+    transform: rotate(90deg);
+}
+.linha3 div{
+    transform: rotate(-90deg);
+}
+.linha4{
+    transform: rotate(120deg);
+}
+.linha4 div{
+    transform: rotate(-120deg);
+}
+.linha5{
+    transform: rotate(150deg);
+}
+.linha5 div{
+    transform: rotate(-150deg);
+}
+.linha6{
+    transform: rotate(180deg);
+}
+.linha6 div{
+    transform: rotate(-180deg);
+}
+.linha7{
+    transform: rotate(210deg);
+}
+.linha7 div{
+    transform: rotate(-210deg);
+}
+.linha8{
+    transform: rotate(240deg);
+}
+.linha8 div{
+    transform: rotate(-240deg);
+}
+.linha9{
+    transform: rotate(270deg);
+}
+.linha9 div{
+    transform: rotate(-270deg);
+}
+.linha10{
+    transform: rotate(300deg);
+}
+.linha10 div{
+    transform: rotate(-300deg);
+}
+.linha11{
+    transform: rotate(330deg);
+}
+.linha11 div{
+    transform: rotate(-330deg);
+}
